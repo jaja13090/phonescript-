@@ -1,47 +1,12 @@
-import re
-import json
-from urllib2 import urlopen
-
-
-phone_number = raw_input("Enter Phone Number:  ")
-
-key = "22157d91a21b4bea9804521fda0fe886"
-
-url = "http://apilayer.net/api/validate?access_key=" + key + "&number=" + phone_number + "&country_code=FR&format=1"
-
-response = urlopen(url)
-data = json.load(response)
-
-if ['valid'] == True:
-    print("Phone Number valid")
-if ['valid'] == False:
-    print("Invalid Phone Number")
-
-valid=data['valid']
-
-country_name=data['country_name']
-
-country_code=data['country_code']
-
-line_type=data['line_type']
-
-carrier=data['carrier']
-
-location=data['location']
-
-country_prefix=data['country_prefix']
-
-
-print(valid)
-
-print(country_name)
-
-print(country_code)
-
-print(line_type)
-
-print(location)
-
-print(carrier)
-
-print(country_prefix)
+from pexpect import pxssh
+s = pxssh.pxssh()
+if not s.login ('shell.xshellz.com', 'BlackRout', '$Q,..vnw5sIVz-=GD&9x'):
+    print "SSH session failed on login."
+    print str(s)
+else:
+    print "SSH session login successful"
+    s.sendline ('ping 8.8.8.8')
+    s.sendline = input("Enter..: ")
+    s.prompt()         # match the prompt
+    print s.before     # print everything before the prompt.
+    s.logout()
