@@ -15,6 +15,9 @@ V 1.0
                                                                           
 """)
 
+Print ("author : jalil")
+
+
 print ("Sarah mon coeur")
 
 choice = input("""
