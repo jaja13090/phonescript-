@@ -30,7 +30,6 @@ choice = input("""
 
 [4] Advanced phone number information
 
-
 \033[1;95mPlease Enter Your Choice: """)
 
 if choice == 1:
