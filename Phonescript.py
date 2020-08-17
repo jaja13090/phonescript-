@@ -15,6 +15,8 @@ V 1.0
                                                                           
 """)
 
+print ("Sarah mon coeur")
+
 choice = input("""
 [1] Simple DDoS
 
