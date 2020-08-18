@@ -21,7 +21,7 @@ print ("author:ledz")
 
 print ("Sarah mon coeur")
 
-choice = input(""""
+choice = input("""
 [1] Simple DDoS
 
 [2] PowerFul DDoS
@@ -30,7 +30,7 @@ choice = input(""""
 
 [4] Advanced Phone Number information 
 
-\033[1;95mPlease Enter Your Choice: """")
+\033[1;95mPlease Enter Your Choice: """)
 
 if choice == 1:
     time.sleep(4)
