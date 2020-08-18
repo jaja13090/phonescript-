@@ -12,7 +12,9 @@ print("""
 |_|   |_|  \___// |\___|\__|
               |__/    
 V 1.0
-                                                                          
+
+Projet by LeDzDevv 
+Facebook jalil sayagh                                                                          
 """)
 
 choice = input("""
@@ -22,7 +24,7 @@ choice = input("""
 
 [3] Phone Number information
 
-[4] ip info 
+[4] ip pinger 
 
 \033[1;95mPlease Enter Your Choice: """)
 
