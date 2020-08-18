@@ -21,7 +21,7 @@ print ("author:ledz")
 
 print ("Sarah mon coeur")
 
-choice = input("""
+choice = input(""""
 [1] Simple DDoS
 
 [2] PowerFul DDoS
