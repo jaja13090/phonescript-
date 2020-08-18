@@ -22,6 +22,8 @@ choice = input("""
 
 [3] Phone Number information
 
+[4] ip info 
+
 \033[1;95mPlease Enter Your Choice: """)
 
 if choice == 1:
