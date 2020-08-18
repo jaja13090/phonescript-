@@ -41,5 +41,10 @@ if choice == 3:
     print("\033[1;94mNumbers 3 Selected")
     print " "
     execfile("PhoneNumber.py")
+if choice == 4:
+    time.sleep(4)
+    print("\033[1;94mNumbers 4 Selected")
+    print " "
+    execfile("info.py")
 else:
     print("Error")
