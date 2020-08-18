@@ -32,10 +32,10 @@ choice = input("""
 \033[1;95mPlease Enter Your Choice: """)
 
 if choice == 1:
-    time.sleep(4)
-    print("\033[1;94mNumbers 1 Selected")
-    print " "
-    execfile("ddos.py")
+   time.sleep(4)
+   print("\033[1;94mNumbers 1 Selected")
+   print " "
+   execfile("ddos.py")
 if choice == 2:
     time.sleep(4)
     print("\033[1;94mNumbers 2 Selected")
@@ -46,5 +46,5 @@ if choice == 3:
     print("\033[1;94mNumbers 3 Selected")
     print " "
     execfile("PhoneNumber.py")
-  else:
+ else:
      print ("Error")
