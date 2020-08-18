@@ -28,7 +28,6 @@ choice = input("""
 
 [3] Phone Number information
 
-[4] Advanced phone number information
 
 \033[1;95mPlease Enter Your Choice: """)
 
