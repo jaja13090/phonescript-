@@ -13,9 +13,9 @@ print("""
               |__/    
 V 1.0
 
-Projet by LeDzDevv 
+Projet by :LeDzDevv
 
-Facebook jalil sayagh                                                                          
+Facebook---jalil sayagh---                                                                      
 """)
 
 choice = input("""
