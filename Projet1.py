@@ -28,6 +28,7 @@ choice = input("""
 
 [3] Phone Number information
 
+[4] Advanced Phone Number information 
 
 \033[1;95mPlease Enter Your Choice: """)
 
@@ -46,5 +47,10 @@ if choice == 3:
     print("\033[1;94mNumbers 3 Selected")
     print " "
     execfile("PhoneNumber.py")
+if choice == :4
+   time.sleep(4)
+ print("\033[1;94mNumbers 4 Selected")
+    print " "
+    execfile("Suce.py")
 else:
-    print("Error") 
+    print("Error")
