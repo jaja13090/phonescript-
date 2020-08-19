@@ -13,9 +13,13 @@ Pkg install python
 Pkg upgrade && update
  
 Git clone https://github.com/jaja13090/phonescript-
+
 Ls 
+
 Cd Phonescript-
+
 python Projet1.py
+
 Enjoy ❤️
    
 
