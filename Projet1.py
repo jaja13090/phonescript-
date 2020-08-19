@@ -13,10 +13,11 @@ print("""
               |__/    
 V 1.5
 
-Projet by :LeDzDevv
+==Projet==By==LeDz==Devv==
 
 Instagram:jalil_rhu
-For mor information Read [Read.me                                                                     
+
+==Check Read.me to more details==                                                                  
 """)
 
 choice = input("""
