@@ -7,8 +7,11 @@ Tutorial install
 
 Termux: 
 Pkg install git
+
 Pkg install python 
-Pkg upgrade && dowgrade 
+
+Pkg upgrade && update
+ 
 Git clone https://github.com/jaja13090/phonescript-
 Ls 
 Cd Phonescript-
