@@ -11,6 +11,7 @@ bytes = random._urandom(2000)
 ip = raw_input("IP ADDRESS: ")
 port = input("PORT : ")
  
+
 os.system("clear")
 os.system("figlet Attack Starting")
 print "[                    ] 0% "
