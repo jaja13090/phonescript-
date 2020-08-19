@@ -58,3 +58,5 @@ if choice == 5:
     print("\033[1;94mNumbers 5 Selected")
     print " "
     execfile("infotel.py")
+else:
+    print("Error")
