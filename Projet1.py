@@ -11,11 +11,12 @@ print("""
 |  __/| | | (_) | |  __/ |_ 
 |_|   |_|  \___// |\___|\__|
               |__/    
-V 1.0
+V 1.5
 
 Projet by :LeDzDevv
 
-Facebook---jalil sayagh---                                                                      
+Instagram:jalil_rhu
+For mor information Read [Read.me                                                                     
 """)
 
 choice = input("""
@@ -25,7 +26,7 @@ choice = input("""
 
 [3] Phone Number information
 
-[4] ip pinger 
+[4] Ping ip adress  
 
 \033[1;95mPlease Enter Your Choice: """)
 
