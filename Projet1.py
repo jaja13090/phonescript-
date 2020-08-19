@@ -29,7 +29,7 @@ choice = input("""
 
 [4] Ping ip adress  
 
-[5]Advanced phone number info
+[5]Email bomber tool
 
 \033[1;95mPlease Enter Your Choice: """)
 
