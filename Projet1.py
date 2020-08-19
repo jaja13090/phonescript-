@@ -29,6 +29,8 @@ choice = input("""
 
 [4] Ping ip adress  
 
+[5]Advanced phone number info
+
 \033[1;95mPlease Enter Your Choice: """)
 
 if choice == 1:
@@ -51,5 +53,8 @@ if choice == 4:
     print("\033[1;94mNumbers 4 Selected")
     print " "
     execfile("info.py")
-else:
-    print("Error")
+if choice == 5:
+    time.sleep(4)
+    print("\033[1;94mNumbers 5 Selected")
+    print " "
+    execfile("PhoneNumber.py")
