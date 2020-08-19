@@ -36,27 +36,27 @@ choice = input("""
 if choice == 1:
     time.sleep(4)
     print("\033[1;94mNumbers 1 Selected")
-    print " "
+    print (" ")
     execfile("ddos.py")
 if choice == 2:
     time.sleep(4)
     print("\033[1;94mNumbers 2 Selected")
-    print " "
+    print (" ")
     execfile("ssh.py")
 if choice == 3:
     time.sleep(4)
     print("\033[1;94mNumbers 3 Selected")
-    print " "
+    print (" ")
     execfile("PhoneNumber.py")
 if choice == 4:
     time.sleep(4)
     print("\033[1;94mNumbers 4 Selected")
-    print " "
+    print (" ")
     execfile("info.py")
 if choice == 5:
     time.sleep(4)
     print("\033[1;94mNumbers 5 Selected")
-    print " "
+    print (" ")
     execfile("infotel.py")
 else:
     print("Error")
