@@ -11,7 +11,6 @@ bytes = random._urandom(2000)
 ip = raw_input("IP ADDRESS: ")
 port = input("PORT : ")
 
-
 while True:
      
 os.system("clear")
