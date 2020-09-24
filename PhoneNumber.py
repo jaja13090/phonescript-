@@ -34,9 +34,9 @@ country_prefix=data['country_prefix']
 
 print(valid)
 
-print(country_name)
+print(pays?)
 
-print(country_code)
+print(country code )
 
 print(line_type)
 
